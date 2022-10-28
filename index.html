@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Count Me</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Count Me">
+    <meta name="description" content="Easily increase, decrease and save amounts for use in everyday life">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://count.me">
+    <meta property="og:title" content="Count Me">
+    <meta property="og:description" content="Easily increase, decrease and save amounts for use in everyday life">
+    <meta property="og:image" content="/meta/preview.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://count.me/">
+    <meta property="twitter:title" content="Count Me">
+    <meta property="twitter:description" content="Easily increase, decrease and save amounts for use in everyday life">
+    <meta property="twitter:image" content="/meta/preview.png">
+
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/meta/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/meta/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/meta/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="mask-icon" href="/meta/safari-pinned-tab.svg" color="#8475e6" />
+    <link rel="shortcut icon" href="/meta/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#8475e6" />
+    <meta name="msapplication-config" content="/meta/browserconfig.xml" />
+    <meta name="theme-color" content="#8475e6" />
+
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/scripts" defer type="module"></script>
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+      <symbol id="minus" viewBox="0 0 42 42">
+        <title>Subtract</title>
+        <path
+          d="M37.059 16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5h32.118C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+        />
+      </symbol>
+
+      <symbol id="plus" viewBox="0 0 60.364 60.364">
+        >
+        <title>Add</title>
+        <path
+          d="m54.454 23.18-18.609-.002-.001-17.268a5.91 5.91 0 1 0-11.819 0v17.269L5.91 23.178a5.91 5.91 0 0 0 0 11.819h18.115v19.457a5.91 5.91 0 0 0 11.82.002V34.997h18.611a5.908 5.908 0 0 0 5.908-5.907 5.906 5.906 0 0 0-5.91-5.91z"
+        />
+      </symbol>
+    </svg>
+
+    <header>
+      <h1>Counter</h1>
+    </header>
+
+    <main>
+      <lottie-player
+        src="https://assets5.lottiefiles.com/packages/lf20_ChL6ap.json"
+        background="transparent"
+        speed="1"
+        style="width: 300px; height: 300px"
+      ></lottie-player>
+      <input value="888" />
+    </main>
+
+    <aside>
+      <button>
+        <svg>
+          <use xlink:href="#minus"></use>
+        </svg>
+      </button>
+      <button>
+        <svg>
+          <use xlink:href="#plus"></use>
+        </svg>
+      </button>
+    </aside>
+  </body>
+</html>

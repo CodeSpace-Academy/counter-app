@@ -1,0 +1,85 @@
+:root {
+    --color-grey-light: #5e6b7a;
+    --color-grey-medium: #2e3844;
+    --color-grey-dark: #232a33;
+    --color-orange-light: #fc7614;
+    --color-orange-medium: #d26515;
+    --font-large: normal normal 900 6rem/1rem Overpass, Arial, Helvetica,
+      sans-serif;
+    --font-medium: normal normal 900 2rem/1rem Overpass, Arial, Helvetica,
+      sans-serif;
+    --font-small: normal normal 900 1rem/1rem Overpass, Arial, Helvetica,
+      sans-serif;
+    --spacing-large: 2rem;
+    --spacing-medium: 1rem;
+    --spacing-small: 0.5rem;
+    --radius-small: 6px;
+    --radius-medium: 30px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font: var(--font-medium);
+    color: var(--color-grey-light);
+    letter-spacing: -0.1rem;
+    background: var(--color-grey-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input {
+    background: var(--color-grey-medium);
+    color: white;
+    font: var(--font-large);
+    width: 100%;
+    max-width: 30rem;
+    text-align: center;
+    border-radius: var(--radius-medium);
+    border-width: 0;
+    padding: var(--spacing-large);
+  }
+  
+  aside {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: var(--spacing-large);
+  }
+  
+  main {
+    padding: var(--spacing-medium);
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-orange-medium);
+    font: var(--font-medium);
+    color: white;
+    border-radius: var(--radius-small);
+    border-width: 0;
+    padding: var(--spacing-medium);
+    width: 100%;
+    max-width: 8rem;
+    margin: 0 var(--spacing-medium);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: var(--color-orange-light);
+  }
+  
+  svg {
+    fill: white;
+    width: 2rem;
+    height: 2rem;
+  }
+  
